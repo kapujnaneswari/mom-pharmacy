@@ -1,0 +1,43 @@
+.consultation-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-form-container h2 {
+  text-align: center;
+  color: #2b6777;
+  margin-bottom: 1.5rem;
+}
+
+.consultation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.consultation-form input,
+.consultation-form select,
+.consultation-form button {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.consultation-form button {
+  background-color: #52ab98;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.consultation-form button:hover {
+  background-color: #3c8d7e;
+}
+
+  

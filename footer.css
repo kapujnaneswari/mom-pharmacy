@@ -1,0 +1,44 @@
+.footer {
+    background-color:rgb(18, 60, 76);
+    color: #f1f5f9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content p {
+    margin: 0.5rem 0 1rem;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+  }
+  
+  .social-links a {
+    font-size: 1.5rem;
+    color: white; 
+    transition: color 0.3s ease;
+    text-decoration: none; 
+  }
+  
+  .social-links a {
+    font-size: 1.5rem;
+    color: #f1f5f9;
+    transition: color 0.3s ease;
+
+  }
+  
+  .social-links a:hover {
+    color: #38bdf8;
+  }
+  
+  .footer-bottom {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #94a3b8;
+  }
+  
+  

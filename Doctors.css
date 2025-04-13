@@ -1,0 +1,56 @@
+/* Container for all doctor cards */
+.doctor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+  background-color: #f1f5f9; /* Light background for contrast */
+}
+
+/* Individual doctor card */
+.doctor-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Doctor Name */
+.doctor-card h2 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+/* Specialization and Price */
+.doctor-card p {
+  font-size: 1rem;
+  color: #475569;
+  margin: 4px 0;
+}
+
+/* Available Slots Title */
+.doctor-card p:nth-of-type(2) {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Slot list styling */
+.doctor-card ul {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+.doctor-card ul li {
+  font-size: 0.9rem;
+  color: #334155;
+  margin-bottom: 4px;
+  list-style-type: disc;
+}
+

@@ -1,0 +1,144 @@
+.homepage {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  background-color: rgb(142, 200, 222);
+  border-radius: 15px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+}
+
+.hero-text h1 span {
+  color: #007bff;
+  text-align: 15px right;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 1rem;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 25px;
+}
+
+.search-container button {
+  padding: 12px ;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-img img {
+  max-width: 500px;
+  width: 300px;
+  height: auto;
+}
+
+.services {
+  margin-top: 60px;
+  
+}
+
+.services h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 220px;
+  text-align: center;
+  background-color: #f2f7fc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.browse-at-health{
+  margin-top: 60px;
+}
+.Health-cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.health-card{
+  flex: 1;
+  min-width: 200px;
+  max-width: 220px;
+  text-align: center;
+  background-color: #f2f7fc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.health-card:hover{
+  transform: translateY(-5px);
+}
+.health-card img{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.health-card p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
